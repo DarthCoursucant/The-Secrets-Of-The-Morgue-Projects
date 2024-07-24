@@ -22,13 +22,3 @@
 .about-section-about-page h1:hover, .about-section-about-page p:hover {
     color: #926f34;
 }
-
-main {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 1;
-  }
