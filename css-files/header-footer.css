@@ -51,7 +51,7 @@
 /* END MENU CODE */
 
 .header-other-sides {
-    background-color: rgba(255, 255, 255, 0.233);
+    background-color: rgba(0, 0, 0, 0.56);
     backdrop-filter: blur(50px);
 }
 
@@ -75,7 +75,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #1a472a;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
