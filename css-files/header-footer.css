@@ -1,0 +1,78 @@
+/* MENU CODE */
+#mymenu {
+    width: 0;
+  }
+  
+  .menubar {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+    background-color: #000000;
+  }
+
+  #mymenu img {
+    width: 55px;
+    height: 55px;
+    margin-top: 30px;
+    margin-top: 30px 30px 0px 0px;
+  }
+  
+  .menubar a {
+    padding: 8px 8px 8px 32px;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .menubar h1 {
+    margin: 50px 0px 30px 20px;
+  }
+  
+  .menubar {
+    line-height: 22px;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+/* END MENU CODE */
+
+.header-other-sides {
+    background-color: rgba(255, 255, 255, 0.233);
+    backdrop-filter: blur(50px);
+}
+
+.header-logo img {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  margin: 15px 0px 0px 15px;
+}
+
+.header-left-side {
+  float: right;
+  display: flex;
+  margin: -90px 30px 0px 0px;
+}
+
+#x-icon-header {
+  margin: 0px 20px 0px 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1613215429168-262a7d615c4f?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
