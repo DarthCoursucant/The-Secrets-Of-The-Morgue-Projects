@@ -5,7 +5,8 @@
     border-radius: 20px;
     height: 450px;
     text-align: center;
-    border: 2px solid #818181;
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 10px 10px #d7d6d6;
 }
 
 .about-section-about-page h1 {
@@ -16,11 +17,6 @@
 .about-section-about-page p {
     font-size: 20px;
     padding: 0px 30px 00px 30px;
-}
-
-.about-section-about-page:hover {
-    box-shadow: 0px 0px 10px 10px #818181;
-    background-color: #BFBFBF;
 }
 
 .about-section-about-page h1:hover, .about-section-about-page p:hover {
